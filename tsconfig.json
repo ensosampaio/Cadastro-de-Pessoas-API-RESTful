@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "CommonJS",
+    
+    // Alinha o compilador com as regras de módulo do Node.js moderno (ESM)
+    "module": "NodeNext", 
+    "moduleResolution": "NodeNext", 
+    
     "lib": ["ES2020"],
     "rootDir": "./src",
     "outDir": "./dist",
-    "strict": true,
+    
+    // É recomendado reativar o strict para a segurança máxima do TypeScript
+    "strict": true, 
+    
     "esModuleInterop": true,
     "skipLibCheck": true
   },

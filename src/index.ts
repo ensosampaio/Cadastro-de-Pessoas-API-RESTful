@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import pessoasRoutes from "./routes/pessoasRoutes";
+import pessoasRoutes from "./routes/pessoasRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
